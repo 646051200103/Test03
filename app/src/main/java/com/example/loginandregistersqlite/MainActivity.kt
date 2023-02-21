@@ -46,7 +46,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
                 startActivity(intent)
             }
             else{
-                Toast.makeText(this, "Wrong Username & Password", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "ให้กรอกข้อมูลใหม่หรือสมัครสมาชิกใหม่", Toast.LENGTH_SHORT).show()
             }
         }
     }
